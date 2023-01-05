@@ -1,7 +1,7 @@
 .column1 {
 
   float:left;
-  width:30%;
+  width:100%;
   padding: 30px;
   border:30px dashed green;
   background-color:blue;
@@ -13,7 +13,7 @@
 .column2 {
 
   float:left;
-  width:30%;
+  width:100%;
   padding: 30px;
   border:30px dashed white;
   background-color:red;
@@ -26,7 +26,7 @@
 
   float:left;
   margin: 0 auto;
-  width:30%;
+  width:100%;
   padding: 30px;
   border:30px dashed yellow;
   background-color:goldenrod;
@@ -34,6 +34,14 @@
   display: block;
 }
 
+section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 4px;
+  grid-auto-flow: column;
+}
 
 img {
   width:200px;
